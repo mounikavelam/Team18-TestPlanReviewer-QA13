@@ -132,9 +132,10 @@ http://127.0.0.1:5000
 
 ---
 
-📁 Project Structure
+## 📁 Project Structure
 
-project/
+```text
+Team18-TestPlanReviewer-QA13/
 │
 ├── app.py
 ├── report_export.py
@@ -166,7 +167,7 @@ project/
 │   └── style.css
 │
 └── uploads/
-
+```
 ---
 
 🧪 Test Cases Covered
@@ -192,13 +193,14 @@ Contents include:
 
 ---
 
-👨‍💻 Team Members
+## 👨‍💻 Team Members
 
-S.No| Name
-1| VELLAM MOUNIKA
-2| VALLU VENKATALAKSHMI
-3| KONETI TEJA VENKATA ABHISHEK
-4| KURAMDASU SOWJANYA
+| S.No | Team Member |
+|------|-------------|
+| 1 | VELLAM MOUNIKA |
+| 2 | VALLU VENKATALAKSHMI |
+| 3 | KONETI TEJA VENKATA ABHISHEK |
+| 4 | KURAMDASU SOWJANYA |
 
 ---
 
