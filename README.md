@@ -1,85 +1,109 @@
-AI Test Plan Review Platform
+🚀 TestLens – Intelligent Test Plan Review Platform
 
-Project Overview
+Team 18 | QA-13 – Test Plan Reviewer
 
-AI Test Plan Review Platform is an intelligent web-based application that automates the review of software test plans using Generative AI. The system evaluates uploaded test plans against predefined quality rubrics and provides detailed feedback, scoring, strengths, weaknesses, and improvement suggestions.
-
-The platform helps QA teams, testers, and project managers improve the quality and completeness of test plans while reducing manual review effort.
+AI-powered rubric-based Test Plan Review Platform using Google Gemini AI
 
 ---
 
-Problem Statement
+📌 Project Overview
 
-Manual review of software test plans is time-consuming, inconsistent, and dependent on reviewer expertise. Organizations require a faster and more standardized approach to evaluate test plans and ensure compliance with quality standards.
+TestLens is an intelligent web-based application that automates the review of software test plans using Generative AI.
 
----
+The platform evaluates uploaded test plans against predefined QA rubrics and generates:
 
-Solution
+- Quality Scores
+- Coverage Analysis
+- Strengths & Weaknesses
+- Risk Assessment
+- Improvement Suggestions
+- Review Reports
 
-The AI Test Plan Review Platform uses Google's Gemini AI model to analyze uploaded test plans and generate rubric-based evaluations. The system automatically identifies strengths, gaps, risks, and recommendations, helping teams improve test planning quality.
-
----
-
-Key Features
-
-- Upload test plan documents
-- AI-powered test plan analysis
-- Rubric-based scoring system
-- Strength and weakness identification
-- Actionable improvement recommendations
-- Review history management
-- Report generation and export
-- User-friendly web interface
+This helps QA teams reduce manual review effort while improving test plan quality and consistency.
 
 ---
 
-Technology Stack
+🎯 Problem Statement
 
-Frontend
+Manual test plan reviews are:
 
-- HTML5
-- CSS3
-- JavaScript
+- Time-consuming
+- Reviewer-dependent
+- Inconsistent across teams
+- Difficult to standardize
 
-Backend
-
-- Python
-- Flask
-
-Database
-
-- SQLite
-
-AI Integration
-
-- Google Gemini API
-
-Report Generation
-
-- Python-docx
+Organizations need a faster and more reliable way to assess test plans and ensure quality compliance.
 
 ---
 
-Demo Video
+💡 Solution
 
-The project demonstration video is available in:
+TestLens leverages Google Gemini AI to automatically analyze software test plans and provide rubric-based evaluations.
+
+The system identifies:
+
+- Missing test scenarios
+- Coverage gaps
+- Potential risks
+- Quality issues
+- Improvement recommendations
+
+---
+
+✨ Key Features
+
+✅ Upload Test Plan Documents
+
+✅ AI-Powered Test Plan Analysis
+
+✅ Rubric-Based Quality Scoring
+
+✅ Strength & Weakness Identification
+
+✅ Coverage Assessment
+
+✅ Risk Detection
+
+✅ Improvement Recommendations
+
+✅ Report Export
+
+✅ Review History Management
+
+---
+
+🛠 Technology Stack
+
+Layer| Technology
+Frontend| HTML5, CSS3, JavaScript
+Backend| Python, Flask
+Database| SQLite
+AI Model| Google Gemini AI
+Report Generation| Python-docx
+
+---
+
+🎥 Demo Video
+
+The project demonstration video link is available in:
 
 demo/DEMO_VIDEO_LINK.txt
 
 ---
 
-Project Workflow
+🔄 Project Workflow
 
 1. User uploads a test plan.
-2. System validates the uploaded file.
-3. Gemini AI analyzes the test plan.
+2. System validates the uploaded document.
+3. Gemini AI analyzes the content.
 4. Rubric-based evaluation is performed.
-5. Score and feedback are generated.
-6. User views results and exports reports.
+5. Quality scores and feedback are generated.
+6. User reviews results.
+7. Reports can be exported for future reference.
 
 ---
 
-Installation & Setup
+⚙️ Installation & Setup
 
 Clone Repository
 
@@ -100,68 +124,77 @@ Run Application
 
 python app.py
 
-Open browser:
+Open the application in your browser:
 
 http://127.0.0.1:5000
 
+«Note: This URL works only on the local machine where the application is running.»
+
 ---
 
-Project Structure
+📁 Project Structure
 
 project/
 │
 ├── app.py
+├── report_export.py
 ├── requirements.txt
 ├── README.md
-├── TEST_CASES.md
-├── AI_USAGE_NOTE.md
+├── .gitignore
+│
+├── docs/
+│   ├── AI_USAGE_NOTE.md
+│   ├── TEST_CASES.md
+│   └── Team18-TEST PLAN REVIEWER.pdf
 │
 ├── resumes/
+│   ├── Mounika_Resume.pdf
+│   ├── VALLU_VENKATALAKSHMI.pdf
+│   ├── K_TEJA_CV.pdf
+│   └── 24u45a0227_Resume.pdf
 │
 ├── demo/
 │   └── DEMO_VIDEO_LINK.txt
 │
-├── templates/
-├── static/
-├── docs/
 ├── sample_data/
+│   └── sample_test_plan.txt
+│
+├── templates/
+│   └── index.html
+│
+├── static/
+│   └── style.css
+│
 └── uploads/
 
 ---
 
-Test Cases
+🧪 Test Cases Covered
 
-The project includes test cases covering:
-
-- Valid file upload
-- Invalid file upload
-- AI review generation
-- Report export
-- Error handling
-- Database operations
+- Valid File Upload
+- Invalid File Upload
+- AI Review Generation
+- Report Export
+- Error Handling
+- Database Operations
 
 ---
 
-Team Resumes
+📄 Documentation
 
-All team member resumes are available in the "resumes/" folder in PDF format.
+Project documentation is available in the "docs/" directory.
 
----
+Contents include:
 
-Future Enhancements
-
-- Multi-format document support
-- User authentication
-- Dashboard analytics
-- Team collaboration features
-- Cloud deployment
-- Advanced QA metrics
+- AI Usage Note
+- Test Cases
+- Project Documentation
 
 ---
 
-Team Members
+👨‍💻 Team Members
 
-S.No| Team Member Name
+S.No| Name
 1| VELLAM MOUNIKA
 2| VALLU VENKATALAKSHMI
 3| KONETI TEJA VENKATA ABHISHEK
@@ -169,6 +202,23 @@ S.No| Team Member Name
 
 ---
 
-License
+📑 Team Resumes
+
+All team member resumes are available in the "resumes/" folder in PDF format.
+
+---
+
+🔮 Future Enhancements
+
+- Multi-format document support
+- User Authentication
+- Dashboard Analytics
+- Team Collaboration Features
+- Cloud Deployment
+- Advanced QA Metrics
+
+---
+
+📜 License
 
 This project was developed for academic and placement assessment purposes.
