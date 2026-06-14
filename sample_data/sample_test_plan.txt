@@ -1,0 +1,38 @@
+MODULE: Online Banking Login
+
+Objective:
+Verify that users can securely access the online banking application using valid credentials.
+
+Scope:
+The login functionality allows registered users to authenticate and access banking services.
+
+Test Scenarios:
+
+1. Verify login with valid username and password.
+2. Verify login with invalid username.
+3. Verify login with invalid password.
+4. Verify login with both invalid username and password.
+5. Verify login with empty username field.
+6. Verify login with empty password field.
+7. Verify login with both fields empty.
+8. Verify password masking functionality.
+9. Verify "Forgot Password" link navigation.
+10. Verify user session creation after successful login.
+11. Verify logout functionality.
+12. Verify user is redirected to dashboard after login.
+13. Verify login page UI elements are displayed correctly.
+14. Verify login functionality on Chrome browser.
+15. Verify login functionality on Edge browser.
+16. Verify login functionality on Firefox browser.
+
+Test Data:
+Valid User:
+Username: testuser01
+Password: Test@123
+
+Invalid User:
+Username: invaliduser
+Password: Wrong123
+
+Expected Result:
+Users should be able to log in successfully using valid credentials and should receive appropriate error messages for invalid login attempts.
