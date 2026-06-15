@@ -5,8 +5,20 @@ Team 18 | QA-13 – Test Plan Reviewer
 AI-powered rubric-based Test Plan Review Platform using Google Gemini AI
 
 ---
+🌐 Live Deployment
 
+Live Application: https://testlens-ai.onrender.com
+
+The application is successfully deployed on Render and can be accessed through the above URL.
+
+Quick Access
+
+- Web App: https://testlens-ai.onrender.com
+- Platform: Render
+- AI Engine: Google Gemini 2.5 Flash
 📌 Project Overview
+
+---
 
 TestLens is an intelligent web-based application that automates the review of software test plans using Generative AI.
 
